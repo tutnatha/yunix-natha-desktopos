@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Mon Jun 01 11:11:57 PST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0172-6ddd-44e4-0000060ca2f8 
+on database directory /home/tutnatha/unicentaopos-database with class loader sun.misc.Launcher$AppClassLoader@33909752 
+Loaded from file:/home/tutnatha/github.com/nTier-Software/Unicenta432-iDempiere/target/lib/derby-10.10.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_201-b09
+user.dir=/home/tutnatha/github.com/nTier-Software/Unicenta432-iDempiere
+os.name=Linux
+os.arch=amd64
+os.version=4.15.0-46-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
