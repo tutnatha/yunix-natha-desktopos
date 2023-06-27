@@ -309,6 +309,12 @@
         <scope>system</scope>
         <systemPath>${project.basedir}/src/main/lib/idempierewsc.jar</systemPath>
     </dependency>
+
+    <dependency>
+    	<groupId>com.dalsemi.onewire</groupId>
+    	<artifactId>owapi</artifactId>
+    	<version>1.10</version>
+    </dependency>
     
   </dependencies> 
   <build> 
@@ -466,6 +472,16 @@
       <url>http://download.oracle.com/maven</url>  
       <layout>default</layout>
     </repository>          
+
+    <repository>
+        <id>owapi-mvn-repo</id>
+        <url>https://raw.github.com/creepid/owapi/mvn-repo/</url>
+        <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+        </snapshots>
+    </repository>
+    
   </repositories>  
   <name>unicentaopos</name> 
  </project>
